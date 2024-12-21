@@ -1,3 +1,4 @@
+/*hi user */
 import React, { Component } from 'react';
 import { Button, Form, Grid, Header, Segment, Icon, Message } from 'semantic-ui-react';
 import web3 from '../../Ethereum/web3';

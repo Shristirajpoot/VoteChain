@@ -1,3 +1,4 @@
+/*hi user */
 const next = require('next');
 const express = require('express');
 const voter = require('./routes/voter');

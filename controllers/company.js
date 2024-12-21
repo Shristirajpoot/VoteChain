@@ -1,3 +1,4 @@
+/*hi user */
 const CompanyModel = require('../models/company');
 const bcrypt = require('bcrypt'); 
 const path = require('path');

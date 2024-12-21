@@ -1,7 +1,14 @@
-# BlockChainVoting
+# VoteChain
 
-A blockchain-based E-voting system, created as the final year project of Shri Bhagubhai Mafatlal Polytechnic. Teammates include me, Sayyam Gada and Charmee Mehta.
+VoteChain is a secure, blockchain-based E-voting system designed to enable transparent, tamper-proof elections. The project was developed by Shristi Rajpoot. It leverages blockchain technology for secure voting, ensuring that the entire election process is fully auditable and transparent.
 > The application is MIT-Licensed.
+
+# Features
+Blockchain-powered Voting: Utilize Ethereum's blockchain for a transparent and secure voting mechanism.
+Election Creation & Management: Companies can register, create elections, add candidates, and manage voter lists.
+Voter Authentication: Voters are authenticated via secure credentials and can vote securely through the application.
+Instant Election Results: Once voting ends, candidates are notified of the results, ensuring transparency in the process.
+Email Notifications: Automated notifications are sent to candidates and voters with relevant information such as election status, credentials, and results.
 
 ## Build Setup
 

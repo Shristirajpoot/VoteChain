@@ -13,3 +13,4 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
 }
 
 export default web3;
+/*hi user */

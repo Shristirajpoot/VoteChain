@@ -19,3 +19,4 @@ this.password = bcrypt.hashSync(this.password, saltRounds);
 cb();
 });
 module.exports = mongoose.model('CompanyList', CompanySchema);
+/*hi user */

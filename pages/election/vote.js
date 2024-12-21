@@ -1,3 +1,4 @@
+/*hi user */
 import React, { Component } from 'react';
 import { Grid, Button, Header, Icon, Image, Menu, Sidebar, Container, Card } from 'semantic-ui-react';
 import Layout from '../../components/Layout'; 

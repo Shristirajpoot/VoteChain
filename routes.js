@@ -1,3 +1,4 @@
+/*hi user */
 const routes = require('next-routes')();
 
 routes

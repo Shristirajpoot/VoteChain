@@ -1,3 +1,4 @@
+/*hi user */
 //Set up mongoose connection
 const mongoose = require('mongoose');
 const mongoDB = 'mongodb://localhost/BlockVotes';

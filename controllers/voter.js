@@ -1,3 +1,4 @@
+/*hi user */
 const VoterModel = require('../models/voter');
 
 const bcrypt = require('bcrypt');

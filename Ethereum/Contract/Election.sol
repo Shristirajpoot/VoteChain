@@ -28,7 +28,7 @@ contract ElectionFact {
 }
 
 contract Election {
-
+/*hi user */
     //election_authority's address
     address election_authority;
     string election_name;
