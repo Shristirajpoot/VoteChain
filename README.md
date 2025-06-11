@@ -1,91 +1,145 @@
-# VoteChain
+# 🗳️ VoteChain – Blockchain-Powered E-Voting System
 
-VoteChain is a secure, blockchain-based E-voting system designed to enable transparent, tamper-proof elections. The project was developed by Shristi Rajpoot. It leverages blockchain technology for secure voting, ensuring that the entire election process is fully auditable and transparent.
-> The application is MIT-Licensed.
+![License](https://img.shields.io/github/license/Shristirajpoot/VoteChain)
+![GitHub stars](https://img.shields.io/github/stars/Shristirajpoot/VoteChain?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shristirajpoot/VoteChain)
 
-# Features
-Blockchain-powered Voting: Utilize Ethereum's blockchain for a transparent and secure voting mechanism.
-Election Creation & Management: Companies can register, create elections, add candidates, and manage voter lists.
-Voter Authentication: Voters are authenticated via secure credentials and can vote securely through the application.
-Instant Election Results: Once voting ends, candidates are notified of the results, ensuring transparency in the process.
-Email Notifications: Automated notifications are sent to candidates and voters with relevant information such as election status, credentials, and results.
+> A secure, transparent, and tamper-proof blockchain-based voting system  
+> Developed with ❤️ by **Shristi Rajpoot**
 
-## Build Setup
+---
+
+## 🌐 Overview
+
+**VoteChain** is a fully decentralized e-voting platform leveraging the Ethereum blockchain, IPFS, and modern web technologies to ensure secure, auditable, and reliable elections. It enables companies or institutions to organize elections, register voters and candidates, and allow secure voting—all while maintaining transparency and trust.
+
+---
+
+## ✨ Features
+
+- ✅ **Blockchain-Powered Voting** – Uses Ethereum & Solidity to secure each vote  
+- 🗳️ **Election Management** – Create elections, add candidates and voters  
+- 🔐 **Secure Voter Authentication** – Voters receive encrypted credentials via email  
+- 📩 **Email Notifications** – Real-time email alerts for credentials, election updates & results  
+- ⚡ **Instant Results** – Votes are counted automatically, and results are visible immediately  
+- 🌍 **Decentralized Storage** – Candidate images and data stored via IPFS
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: Next.js, Semantic UI React  
+- **Smart Contracts**: Solidity, Web3.js  
+- **Backend**: Node.js, Express.js, MongoDB  
+- **File Storage**: IPFS  
+- **Blockchain**: Ethereum (Tested on Rinkeby Network)
+
+---
+
+## 🖥️ Screenshots
+
+📸 Real views of the VoteChain E-Voting System:
+
+| Homepage                        | Company Login                        |
+| ------------------------------- | ------------------------------------ |
+| ![](./screenshots/homepage.PNG) | ![](./screenshots/company_login.PNG) |
+
+| Create Election                        | Election Dashboard               |
+| -------------------------------------- | -------------------------------- |
+| ![](./screenshots/create_election.PNG) | ![](./screenshots/dashboard.PNG) |
+
+| Voter List                       | Voter Mail Notification                         |
+| -------------------------------- | ----------------------------------------------- |
+| ![](./screenshots/voterlist.PNG) | ![](./screenshots/voter_registeration_mail.PNG) |
+
+
+| Voter Login                        | Successful Voting                        |
+| ---------------------------------- | ---------------------------------------- |
+| ![](./screenshots/voter_login.PNG) | ![](./screenshots/successful_voting.PNG) |
+
+
+| Unsuccessful Voting                        | Winner Announcement Email                    |
+| ------------------------------------------ | -------------------------------------------- |
+| ![](./screenshots/unsuccessful_voting.PNG) | ![](./screenshots/winner_candidate_mail.PNG) |
+
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 📦 Prerequisites
+
+- Node.js (recommended v11.14.0)
+- MongoDB running on `localhost:27017`
+- MetaMask installed (for Ethereum interaction)
+- Email credentials for notifications
+- Rinkeby test ETH (for testing)
+
+### 🔧 Installation
 
 ```bash
-# install dependencies
+git clone https://github.com/Shristirajpoot/VoteChain.git
+cd VoteChain
 npm install
+```
+## 📁 Environment Setup
+Create a .env file in the root directory with the following:
 
-# serve with hot reload at localhost:3000
+```env
+
+EMAIL=your_email@example.com
+PASSWORD=your_email_password
+```
+## 🚀 Run Locally
+```bash
 npm start
 ```
+Visit http://localhost:3000 in your browser.
 
-Create your own <b>.env</b> file and the file should contain:
-```bash
-EMAIL=YOUR_EMAIL_ID
-PASSWORD=YOUR_PASSWORD_FOR_EMAIL_ID
+## 📬 Example JSON Structure for Build Status Update
+```json
+{
+  "stat": "s",
+  "proj": "E-Vote 2025",
+  "build": "Phase 1",
+  "usu": "Election Admin",
+  "desc": "Voting completed successfully"
+}
 ```
-Install MetaMask extension (https://metamask.io/download.html) and make sure to have some Ether to test the application locally. Ether can be fetched from Rinkeby Faucet (https://faucet.rinkeby.io)
+## 🛠️ Known Issues & Notes
 
-#### Note:
-- Make sure to install Node.js v11.14.0 to make sure the app runs fine. Testing for other node versions is yet to be done.
-- MongoDB must be working in background on localhost:27017
+- Node version other than 11.14.0 may cause issues
 
-###### Please star the repo if it helped you in any way!
+- Ensure MongoDB is running locally
 
-## Tech Stack:
+- Use Rinkeby Faucet to get test ETH https://faucet.rinkeby.io
 
-- Solidity/Web3 (for writing/connecting the Blockchain contract)
-- Next.js & Semantic UI React (front-end)
-- MongoDB/ExpressJS/Node.js (back-end)
-- IPFS (file storage for images)
+## 🤝 Contributing
+We welcome contributions!
+To contribute:
 
-## Screenshots of the app:
+1. Fork the repository
 
-Homepage of the application:
+2. Create your branch: git checkout -b feature/awesome-feature
 
-![](screenshots/homepage.PNG)
+3. Commit your changes: git commit -m "Add awesome feature"
 
-Company registers/logs in:
+4. Push to the branch: git push origin feature/awesome-feature
 
-![](screenshots/company_login.PNG)
+5. Submit a pull request
+---
 
-Company creates an election if not created:
+## 👩‍💻 Author
+### Shristi Rajpoot
+- 📧 Email: shristirajpoot369@gmail.com
+- 🔗 GitHub: @Shristirajpoot
 
-![](screenshots/create_election.PNG)
+---
 
-Dashboard on successful election creation:
+## 📜 License
+Distributed under the **MIT License** — see [`LICENSE`](./LICENSE).
 
-![](screenshots/dashboard.PNG)
+---
 
-List of candidates for the election (here, you can add candidates):
-
-![](screenshots/candidate_list.PNG)
-
-Candidate has been notified on the mail:
-
-![](screenshots/candidate_registeration_mail.PNG)
-
-List of voters for the election (here, you can add voters):
-
-![](screenshots/voterlist.PNG)
-
-Voters have been sent their secure usernames and passwords on the mail:
-
-![](screenshots/voter_registeration_mail.PNG)
-
-Voter login page:
-
-![](screenshots/voter_login.PNG)
-
-Successful voting scenario:
-
-![](screenshots/successful_voting.PNG)
-
-Unsuccessful voting scenario:
-
-![](screenshots/unsuccessful_voting.PNG)
-
-Notification to each candidate and voter for the winner of candidates:
-
-![](screenshots/winner_candidate_mail.PNG)
+### ⭐ Like what you see? **Star** the repo, fork it, or open an issue — contributions welcome!
